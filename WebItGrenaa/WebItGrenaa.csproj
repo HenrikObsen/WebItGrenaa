@@ -93,6 +93,9 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Code\MailFac.cs" />
+    <Content Include="App_Code\ToolBox.cs" />
+    <Content Include="App_Code\Uploader.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
