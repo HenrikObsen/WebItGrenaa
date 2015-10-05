@@ -41,13 +41,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="DDMF\AutoFac.cs" />
+    <Compile Include="DDMF\AutoPager.cs" />
+    <Compile Include="DDMF\Conn.cs" />
+    <Compile Include="DDMF\Mapper.cs" />
+    <Compile Include="Factories\ImageFac.cs" />
+    <Compile Include="Models\Image.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="DDMF\" />
-    <Folder Include="Factories\" />
-    <Folder Include="Models\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
