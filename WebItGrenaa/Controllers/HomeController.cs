@@ -13,6 +13,7 @@ namespace WebItGrenaa.Controllers
         // GET: Home
         public ActionResult Index()
         {
+
             return View("Index", ImF.GetAll());
         }
     }
